@@ -1,0 +1,107 @@
+label{
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-top: 12px;
+    padding-right: 12px;
+    clear: both;
+}
+
+input, textarea, select {
+    margin-top: 12px;
+    max-width: 50%;
+    
+} 
+
+
+#simpleFormCategorie{
+
+    /* background-color: #CCC; */
+    border-color: black;
+    border-width: thin;
+    border-style: solid;
+    width: 60%;
+    min-width: 500px;
+    max-width: 1000px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1em;
+    margin-bottom: -0.5em;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#buttonEnregistrerCategorie{
+    margin-left: 160px;
+    max-height: 50px;
+    width: 150px;
+    height: 30px;
+     background-color: lightblue;
+     display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+
+.input-element {
+    border: 0;
+    padding: 2px;
+    background: #fff;
+    font: 12pt sans-serif;
+  }
+
+  .tmp-element {
+    visibility: hidden;
+    white-space: pre;
+  }
+
+
+.resizing-input input, select, .resizing-input span {
+    font-size: 12px;
+    font-family: Sans-serif;
+    white-space: pre;
+    padding: 5px;
+}
+
+#divButtonsCategorie{
+
+    /* background-color: #CCC; */
+        width: 100%;
+    height: 35px;
+    min-width: 350px;
+    max-width: 700px;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 1px;
+}
+
+.columnStock {
+    float: left;
+    width: 48%;
+    padding: 12px;
+    height: 530px;    
+    border-color: black;
+    border-width: thin;
+    border-style: solid;     
+  }
+
+  .columnStock1 {
+    float: left;
+    width: 48%;
+    padding: 12px;
+    height: 270px;    
+    border-color: black;
+    border-width: thin;
+    border-style: solid;     
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
